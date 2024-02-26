@@ -21,33 +21,43 @@ const dataabout = {
 
 const skills = [{
         name: "Python",
+        value: 65,
     },
     {
         name: "Fastapi",
+        value: 60,
     },
     {
         name: "Javascript",
+        value: 20,
     },
     {
         name: "React",
+        value: 15,
     },
     {
         name: "FL studio",
+        value: 65,
     },
     {
         name: "Photoshop",
+        value: 75,
     },
     {
         name: "C++",
+        value: 60,
     },
     {
         name: "CSS",
+        value: 50,
     },
     {
         name: "HTML",
+        value: 50,
     },
     {
         name: "Flask",
+        value: 55,
     },
 ];
 
