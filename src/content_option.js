@@ -14,109 +14,34 @@ const introdata = {
     description: "I am 23 years old fullstack developer, digital artist and audio engineer, producer and rapper from Serbia",
 };
 
-const dataabout = {
-    title: "A bit about myself",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
-};
-
-const skills = [{
-        name: "Python",
-        value: 65,
-    },
-    {
-        name: "Fastapi",
-        value: 60,
-    },
-    {
-        name: "Javascript",
-        value: 20,
-    },
-    {
-        name: "React",
-        value: 15,
-    },
-    {
-        name: "FL studio",
-        value: 65,
-    },
-    {
-        name: "Photoshop",
-        value: 75,
-    },
-    {
-        name: "C++",
-        value: 60,
-    },
-    {
-        name: "CSS",
-        value: 50,
-    },
-    {
-        name: "HTML",
-        value: 50,
-    },
-    {
-        name: "Flask",
-        value: 55,
-    },
-];
-
-const services = [{
-        title: "Fullstack web development",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Digital Art",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mixing and producing",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
 
 const dataportfolio = [{
-        img: "../../assets/images/cov.png",
+        img: "../../assets/images/ssg.png",
         description: "Static website generator written in python",
         link: "https://github.com/andrijaj01/ssgpy",
     },
     {
-	img: '../../assets/images/cov.png',
+	img: '../../assets/images/image-3.png',
         description: "website written in bootstrap and fastapi directly serving it",
         link: "https://github.com/andrijaJ01/portfolio-fastapi",
     },
     {
-        img: "../../assets/images/bg.png",
+        img: "../../assets/images/portfolio_1.webp",
         description: "python search engine scrapper",
         link: "https://github.com/andrijaJ01/ProjectSCRAPPER",
     },
     {
-        img: "../../assets/images/bg.png",
+        img: "../../assets/images/portfolio_1.webp",
         description: "amazon price tracker script written in python",
         link: "https://github.com/andrijaJ01/amazon-price-tracker",
     },
 {
-        img: "../../assets/images/bg.png",
-        description: "Static website generator written in python",
-        link: "https://github.com/andrijaj01/ssgpy",
+        img: "../../assets/images/portfolio_2.webp",
+        description: "Various Reddit bots",
+        link: "",
     },
     {
-        img: "../../assets/images/bg.png",
-        description: "website written in bootstrap and fastapi directly serving it",
-        link: "https://github.com/andrijaJ01/portfolio-fastapi",
-    },
-    {
-        img: "../../assets/images/bg.png",
-        description: "python search engine scrapper",
-        link: "https://github.com/andrijaJ01/ProjectSCRAPPER",
-    },
-    {
-        img: "../../../assets/images/fastapireactportfolio.webp",
-        description: "amazon price tracker script written in python",
-        link: "https://github.com/andrijaJ01/amazon-price-tracker",
-    },
-    {
-        img: "../../../assets/images/mib.png",
+        img: "../../../assets/images/mib2.png",
         description: "portfolio website for a friend",
         link: "https://www.mibris-audio.com",
     },
@@ -128,7 +53,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "andrijajovanovic001@gmail.com	",
     YOUR_FONE: "+381631401362",
-    description: "Contact me for any question or comission",
+    description: "If you're looking for a skilled fullstack web developer to bring your ideas to life, I'd love to hear from you. Whether you have a project in mind or simply want to discuss the possibilities, feel free to reach out. ",
     YOUR_SERVICE_ID: "service_amuw43i",
     YOUR_TEMPLATE_ID: "template_t4ltpm3",
     YOUR_USER_ID: "U1fNorObTYsmDjf0O",
@@ -142,10 +67,7 @@ const socialprofils = {
 };
 export {
     meta,
-    dataabout,
     dataportfolio,
-    skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,

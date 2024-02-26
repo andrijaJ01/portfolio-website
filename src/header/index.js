@@ -4,7 +4,6 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
-import { Container } from "react-bootstrap";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("true");
@@ -41,9 +40,7 @@ const Headermain = () => {
                   <li className="menu_item">
                     <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
                   </li>
-                  <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
-                  </li>
+
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
