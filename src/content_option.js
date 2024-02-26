@@ -40,6 +40,15 @@ const skills = [{
     {
         name: "C++",
     },
+    {
+        name: "CSS",
+    },
+    {
+        name: "HTML",
+    },
+    {
+        name: "Flask",
+    },
 ];
 
 const services = [{

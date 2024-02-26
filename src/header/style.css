@@ -10,7 +10,6 @@
 
 .menu__button:focus,
 .menu__button:hover {
-    color: var(--text-color);
     box-shadow: unset;
 }
 
@@ -34,11 +33,6 @@
     font-weight: bold;
     z-index: 1000;
 }
-
-.nav_ac:hover {
-    color: var(--text-color-2);
-}
-
 .br-top,
 .br-bottom,
 .br-right,
@@ -164,7 +158,7 @@
 
 @media (min-width: 992px) {
     .menu__container {
-        margin-left: 33.3333%;
+        margin-left: 45%;
     }
     .the_menu {
         padding-top: 10vh;
@@ -182,10 +176,6 @@
     padding: 4px 0px;
     text-decoration: none;
     font-family: Marcellus;
-}
-
-.the_menu .menu_item>a:hover {
-    color: var(--text-color-3);
 }
 
 @media (min-width: 768px) {
