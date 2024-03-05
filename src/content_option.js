@@ -14,7 +14,31 @@ const introdata = {
     description: "I am 23 years old fullstack developer, digital artist and audio engineer, producer and rapper from Serbia",
 };
 
+const skill = [{
+        name: "Python",
+    },
+    {
+        name: "FastAPI",
+    },
+    {
+        name: "Javascript",
+    },
+    {
+        name: "React"
+    },
+    {
+        name: "HTML",
 
+    },
+    {
+        name: "CSS",
+
+    },
+	{
+        name: "Django",
+
+    },
+];
 const dataportfolio = [{
         img: "../../assets/images/ssg.png",
         description: "Static website generator written in python",
@@ -68,6 +92,7 @@ const socialprofils = {
 export {
     meta,
     dataportfolio,
+    skill,
     introdata,
     contactConfig,
     socialprofils,

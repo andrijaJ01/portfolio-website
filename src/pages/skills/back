@@ -1,0 +1,19 @@
+
+        <Row className="sec_sp">
+         
+          <Col lg="7">
+            {skill.map((data, i) => {
+              return (
+                <MDBTabs pills className='mb-3'>
+                        <MDBTabsItem className='btn btn-static px-3 mx-3'>
+                <div className='nav-item'>
+                  <h3 className="progress-title ">{data.name}</h3>
+                </div>
+
+                
+                        </MDBTabsItem>
+                </MDBTabs>
+              );
+            })}
+          </Col>
+        </Row>

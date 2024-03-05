@@ -2,16 +2,6 @@
     margin-bottom: calc(3rem + 5.128vw);
 
 }
-
-.table td,
-.table th {
-    color: var(--text-color);
-}
-
-.t_border {
-    border-color: var(--text-color) !important;
-}
-
 .progress-title {
     font-size: 16px;
     font-weight: 700;
@@ -37,12 +27,9 @@
 }
 
 .progress .progress-value {
-    position: absolute;
-    top: -30px;
-    right: 8px;
+   
     font-size: 17px;
     font-weight: bold;
-    font-style: italic;
     color: var(--text-color);
 }
 
@@ -114,3 +101,11 @@
     -webkit-box-shadow: inset 0 0 0px white;
     box-shadow:         inset 0 0 0px white;
   }
+
+
+  @media (max-width: 576px) {
+    .About-header .sec_sp .col-lg-7 {
+      flex-direction: column;
+      margin: 5px;
+    }
+}
