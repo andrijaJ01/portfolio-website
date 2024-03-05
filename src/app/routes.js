@@ -24,7 +24,7 @@ function AppRoutes() {
   return (
     <div className="s_c">
       <WebsiteRoutes />
-      <Socialicons />
+      
     </div>
   );
 }
